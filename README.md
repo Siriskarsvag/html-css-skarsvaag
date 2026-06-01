@@ -36,7 +36,7 @@ git clone [https://github.com/Siriskarsvag/html-css-skarsvaag]
 Open the project using Live server
 
 ## Live Site
-https://github.com/Siriskarsvag/html-css-skarsvaag
+https://siriskarsvag.github.io/html-css-skarsvaag
 
 ## Repository
 https://github.com/Siriskarsvag/html-css-skarsvaag
