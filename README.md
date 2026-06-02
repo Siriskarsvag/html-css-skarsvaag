@@ -1,5 +1,8 @@
 # HTML/CSS CA - Rainydays
 
+<img width="1900" height="813" alt="rainydaysHTML" src="https://github.com/user-attachments/assets/35412a2c-c458-4872-9a1a-0e1b2b8cea83" />
+
+
 Project was to built an online store for outdoor jackets using HTML and CSS.
 ## Description
 
