@@ -160,6 +160,13 @@ body {
         display: flex;
     }
 
+    footer p {
+        font-family: "Inter";
+        font-size: 15px;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
     .help-element {
         flex: 1;
         display: flex;
@@ -336,6 +343,12 @@ body {
         align-items: center;
     }
 
+    .product-footer-title {
+        font-family: "Bebas Neue";
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
     .product-footer-icons {
         flex: 1;
         display: flex;
@@ -498,6 +511,14 @@ body {
         border: solid 2px black;
     }
 
+    .chosen-product-title {
+        font-family: "Inter";
+        font-size: 15px;
+        text-decoration: underline;
+        margin: 0px;
+        font-weight: 600;
+    }
+
     .item-quantity {
         flex: 1;
         display: flex; 
@@ -642,6 +663,11 @@ body {
         height: auto;
     }
 
+    .card-input {
+        display: flex;
+        flex-direction: column;
+    }
+
     .shipping-options {
         flex: 1;
         display: flex;
@@ -656,6 +682,12 @@ body {
         align-items: center;
         padding: 20px 10px;
         justify-content: space-between;
+    }
+
+    .shipping-label {
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "Bebas Neue";
     }
 
     .order-overview {

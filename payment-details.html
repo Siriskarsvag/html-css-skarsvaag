@@ -42,8 +42,8 @@
         </header>
         <main>
             <h1>CHECKOUT</h1>
-            <section class="payment section-utility">
-                <section class="payment-steps">
+            <div class="payment section-utility">
+                <div class="payment-steps">
                     <div class="step-section">
                         <div class="step-header">
                             <h2 class="steps">1</h2>
@@ -84,8 +84,8 @@
                             <input type="tel" id="phone" name="phone" autocomplete="on">
                         </form>
                     </div>
-                </section>
-                <section class="shipping-options">
+                </div>
+                <div class="shipping-options">
                     <div class="step-section">
                         <div class="step-header">
                             <h2 class="steps">3</h2>
@@ -101,14 +101,22 @@
                                 <label for="creditcard"><input type="radio" id="creditcard" name="payment-option"> <img src="images/icons/10131970_creditcard_line_icon.png" alt="creditcard icon"/>Creditcard </label>
                                     <fieldset class="card-details">
                                         <legend>Card details</legend>
-                                        <label for="cardnumber">Cardnumber</label></br>
-                                        <input type="number" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000"></br>
-                                        <label for="cardholder">Cardholders name</label></br>
-                                        <input type="text" id="cardholder" name="cardholder"></br>
-                                        <label for="experation_date">Card experation date</label></br>
-                                        <input type="month" id="experation_date" name="experation_date"></br>
-                                        <label for="cvc">CVC</label></br>
-                                        <input type="number" id="cvc" name="cvc" placeholder="000"></br>
+                                        <div class="card-input">
+                                            <label for="cardnumber">Cardnumber</label>
+                                            <input type="number" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000">
+                                        </div>
+                                        <div class="card-input">
+                                            <label for="cardholder">Cardholders name</label>
+                                            <input type="text" id="cardholder" name="cardholder">
+                                        </div>
+                                        <div class="card-input">
+                                            <label for="experation_date">Card experation date</label>
+                                            <input type="month" id="experation_date" name="experation_date">
+                                        </div>
+                                        <div class="card-input">
+                                            <label for="cvc">CVC</label>
+                                            <input type="number" id="cvc" name="cvc" placeholder="000">
+                                        </div>
                                     </fieldset>
                                 <label for="paypal"><input type="radio" id="paypal" name="payment-option"><img src="images/icons/5340264_pay_payment_paypal_icon.png" alt="paypal icon"/>Paypal </label>
                                 <label for="googlepay"><input type="radio" id="googlepay" name="payment-option"><img src="images/icons/4691404_googlepay_icon.png" alt="googlepay icon"/>Google Pay  </label>
@@ -124,24 +132,24 @@
                         <div class="shipping-methods">
                             <form>
                                 <fieldset>
-                                    <label for="standard"><input type="radio" id="standard" name="shipping-option"><h3>Standard shipping</h3><p>Estimated delivery 3-5 days</p></label>
+                                    <label class="shipping-label" for="standard">Standard shipping</label><input type="radio" id="standard" name="shipping-option"><p>Estimated delivery 3-5 days</p>
                                     <h3>FREE</h3>
                                 </fieldset>
                                 <fieldset>
-                                    <label for="express"><input type="radio" id="express" name="shipping-option"><h3>Express shipping</h3><p>Estimated delivery 1-3 days</p></label>
+                                    <label class="shipping-label" for="express">Express shipping</label><input type="radio" id="express" name="shipping-option"><p>Estimated delivery 1-3 days</p>
                                     <h3>+ 49,-</h3>
                                 </fieldset>
                             </form>
                         </div>
                     </div>
-                </section>
+                </div>
                 <section class="order-overview">
                     <h2>ORDER OVERVIEW</h2>
                     <div class="product-chosen">
                         <img src="images/RainyDays_Jacket1.jpg" alt="Rainydays Storm guard - red and silver"/>
-                        <h4>Rainydays Storm Guard</h4>
+                        <p class="chosen-product-title">Rainydays Storm Guard</p>
                         <p>1</p>
-                        <h6>999,-</h6>
+                        <p>999,-</p>
                     </div>
                     <div class="summary">
                         <h3>Product Summary = 999,-</h3>
@@ -157,22 +165,23 @@
             </section>
         </main>
         <footer>
-            <section class="footer-content">
+            <div class="footer-content">
                 <div class="help-element">
-                    <h4>HELP</h4>
+                    <p>HELP</p>
                     <ul>
                         <li><a href="coming-soon.html">Helpcenter</a></li>
                         <li><a href="coming-soon.html">Term & Conditions</a></li>
                     </ul>
                 </div>
                 <div class="about-element">
-                    <h4>ABOUT RAINYDAYS</h4>
+                    <p>ABOUT RAINYDAYS</p>
                     <ul>
                         <li><a href="coming-soon.html">About us</a></li>
                         <li><a href="coming-soon.html">Contact us</a></li>
                         <li><a href="coming-soon.html">Privacy Policy</a></li>
                     </ul>
                 </div>
+            </div>
         </footer>
     </body>
 </html>
